@@ -1,0 +1,42 @@
+
+<div class="calc">
+  <h1>CALCULATOR</h1>
+  <div>
+    <input class="result" type="text" readonly value= "{{result}}">
+  </div>
+  <div>
+    <button class="responsive long" *ngFor="let longButton of longButtons" (click) ="addToExpression(longButton)">AC
+      {{longbutton}}
+    </button>
+    <button class="responsive long" *ngFor="let longButton1 of longButtons1" (click) ="addToExpression(longButton1)">
+        {{longButton1}}
+      </button>
+    <button class="responsive" *ngFor="let button of buttons" (click)="addToExpression(button)">
+      {{button}}
+    </button>
+
+  </div>
+</div>
+
+
+<br><br><br>
+
+<div>
+ 
+<div class="main">
+
+  <h2>Item's List</h2>
+  <div class="addItem">
+    <input [(ngModel)] ="newItem" placeholder="Add Item" class="addText">
+    <button (click)="pushItem()">Add</button>
+  </div>
+  <ul>
+    <li *ngFor="let i of items; let ind=index">
+      {{i}}
+      <span (click)="removeItem(ind)">x</span>
+    </li>
+  </ul>
+</div>
+<br><br><br>
+
+

@@ -1,0 +1,128 @@
+h1{
+    margin-top: 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.calc
+{
+    background-color: rgb(245, 242, 238);
+    position: relative;
+    margin: 7% auto auto auto;
+    width: 400px;
+    text-align: center;
+    border-color:rgb(99, 94,97);
+    border-radius: 20px;
+    box-shadow: insert 2px 0px 10px -5px rgb(85,80,83),
+                insert -5px 0px 15px -5px rgb(85,80,83),
+                insert 10px 0px 10px -12px rgb(85,80,83),
+                insert -2px 0px 4px 2px rgb(85,80,83),
+                insert -2px 0px 10px 0px rgb(85,80,83);    
+}
+
+.result{
+    border-radius: 8px;
+    height: 45px;
+}
+
+button{
+    border-radius: 8px;
+    width:80px;
+    height:65px;
+    font-size:20px;
+    border:2px solid;
+    border-color: rgb(87,85,85);
+    margin: 2px 2px 8px 2px;
+    transition-duration:0.4s;
+    box-shadow: insert 5px 0 15px -5px rgb(109,103,106),
+                insert -3px 0 15px -5px rgb(109,103,106),    
+                insert 0px -5px 0px -3px rgb(109,103,106),
+                insert 0 0 2px 2px rgb(109,103,106),
+               insert 0 5px 15px 0 rgb(109,103,106);
+}
+
+
+.long{
+    width:170px;
+}
+
+.responsive:hover{
+    background-color: rgb(138,134,134);
+    color: rgb(247,240,240);
+    box-shadow: insert 5px 0 15px -5px rgb(199,192,182),
+                insert -3px 0 15px -5px rgb(199,192,182),
+                insert 0px -5px 0px -3px rgb(199,192,182),
+                insert 0 0 2px 2px rgb(199,192,182),
+                insert 0 5px 15px 0 rgb(199,192,182),
+}
+
+input{
+    width:350px;
+    height:60x;
+    text-align: right;
+    font-size: 1.7em;
+}
+
+h1 {
+    color: rgb(73, 69, 69);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(76, 76, 102), 0 0 5px rgb(15, 15, 20);
+  }
+
+
+  .main{
+    width:500px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #d7d7d7;
+    border-bottom: 0px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+h2{
+      text-align: center;
+      background-color: #5c8297;
+      padding: 30px 0px;
+      margin-top: 0px;
+      color: white;
+  }
+
+  .addItem{
+      position: relative;
+      padding-bottom: 0px;
+      height: 30px;
+  }
+
+  .addText{
+    width: 80%;
+    height:30px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.addItem button{
+    height:45px;
+    width:70px;
+    padding:5px;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    color: #686868;
+    margin-left: -40px;
+    margin-bottom: 0px;
+}
+
+li{
+    border-bottom: 1px solid #bfbfbf;
+    background-color: #d7d7d7;
+    padding:10px 0px;
+    margin-bottom:5px;
+}
+
+span{
+    cursor:pointer;
+    position:relative;
+    float:right;
+    margin-right: 10px;
+}
